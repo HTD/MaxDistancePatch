@@ -8,10 +8,9 @@
         mc:Ignorable="d"
         Background="#99b7b4"
         Loaded="MainWindow_Loaded"
-        Title="MaSzyna - MaxDistance Patch 2.0" Width="720" Height="400" >
-    <Window.TaskbarItemInfo>
-        <TaskbarItemInfo/>
-    </Window.TaskbarItemInfo>
+        Width="720" Height="400"
+    >
+    <Window.TaskbarItemInfo><TaskbarItemInfo/></Window.TaskbarItemInfo>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

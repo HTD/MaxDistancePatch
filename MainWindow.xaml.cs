@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Shell;
@@ -32,6 +33,8 @@ namespace MaxDistancePatch {
         /// </summary>
         public MainWindow() {
             InitializeComponent();
+            var v = Assembly.GetExecutingAssembly().GetName().Version;
+            Title = $"MaSzyna :: MaxDistance Patch {v.Major}.{v.Minor}";
         }
 
         /// <summary>
